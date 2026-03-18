@@ -91,6 +91,9 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <h1 class="title is-1 publication-title">MARRS: Masked Autoregressive Unit-based Reaction Synthesis</h1>
+            <p class="is-size-5 has-text-centered"
+              style="color: rgb(255, 0, 0); font-weight: bold; margin-bottom: 0.5rem;">IEEE TVCG 2026
+            </p>
             <div class="is-size-5 publication-authors">
               <span class="author-block">
                 <a href="">Yabiao Wang</a><sup>*</sup>,</span>
@@ -171,23 +174,6 @@
     </div>
   </section>
 
-  <!-- Teaser视频已注释
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
-                type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
-      </h2>
-    </div>
-  </div>
-</section>
--->
 
 
   <!-- 轮播图已注释
@@ -285,18 +271,28 @@
               alt="Interpolate start reference image." />
           </div>
         </div>
-      </div>
-
-      <div class="columns is-centered">
-        <div class="column is-full-width">
-          <h2 class="title is-3 has-text-centered">Inference Process</h2>
-          <br>
-          <div class="has-text-centered">
-            <img src="./static/images/infer.jpg" class="interpolation-image" alt="Interpolate start reference image." />
-          </div>
-        </div>
       </div> -->
 
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3 has-text-centered">Video Examples on NTU120-AS</h2>
+          <br>
+          <div class="has-text-centered">
+            <video id="teaser" autoplay controls muted loop playsinline
+              style="width: 100%; border: 1px solid #dbdbdb; border-radius: 1px; padding: 1px; background: #f5f5f5;">
+              <source src="./static/videos/demo1_more examples.mp4" type="video/mp4">
+            </video>
+            <!-- <p class="has-text-centered" style="margin-top: 10px; color: #000;">
+              this is demo video
+            </p> -->
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -453,16 +449,6 @@
           <p>
             <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
           </p>
-          <p>
-            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
-            both use deformation fields to model non-rigid scenes.
-          </p>
-          <p>
-            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
-          </p>
-          <p>
-            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
-          </p>
         </div>
       </div>
     </div>
@@ -479,11 +465,32 @@
     author    = {Yabiao Wang and Shuo Wang and Jiangning Zhang and Jiafu Wu and Qingdong He and Yong Liu},
     title     = {MARRS: Masked Autoregressive Unit-based Reaction Synthesis},
     journal   = {IEEE Transactions on Visualization and Computer Graphics (TVCG)},
-    year      = {2026}
+    year      = {2026},
+    doi       = {10.1109/TVCG.2026.3675978}
   }</code></pre>
     </div>
   </section>
 
+
+
+  <footer class="footer">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+              href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+              Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            Website source code based on the <a href="https://nerfies.github.io/"> Nerfies</a> project page. If you want
+            to reuse their <a href="https://github.com/nerfies/nerfies.github.io">source code</a>, please credit them
+            appropriately.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
   <!-- 页脚已注释
@@ -519,24 +526,7 @@
   </div>
 </footer>
 -->
-  <footer class="footer">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-          <p>
-            This website is licensed under a <a rel="license"
-              href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
-              Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-          <p>
-            Website source code based on the <a href="https://nerfies.github.io/"> Nerfies</a> project page. If you want
-            to reuse their <a href="https://github.com/nerfies/nerfies.github.io">source code</a>, please credit them
-            appropriately.
-          </p>
-        </div>
-      </div>
-    </div>
-  </footer>
+
 
 </body>
 
